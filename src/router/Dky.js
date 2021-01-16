@@ -75,4 +75,32 @@ export default [
         meta: { title: "我的订单" },
         component: () => import("../views/dky-me/dky-order.vue"),
     },
+    // 大的我的订单
+    {
+        path: "/dky-bigorder",
+        name: "dky-bigorder",
+        meta: { title: "我的订单" },
+        component: () => import("../views/dky-me/dky-bigorder.vue"),
+    },
+    // 我的优惠卷
+    {
+        path: "/dky-coupon",
+        name: "dky-coupon",
+        meta: { title: "我的优惠卷" },
+        component: () => import("../views/dky-me/dky-coupon.vue"),
+    },
+    // 学习卡兑换
+    {
+        path: "/dky-study",
+        name: "dky-study",
+        meta: { title: "学习卡兑换" },
+        component: () => import("../views/dky-me/dky-study.vue"),
+    },
+    // 地址管理
+    {
+        path: "/dky-site",
+        name: "dky-site",
+        meta: { title: "地址管理" ,mage:"新增地址"},
+        component: () => import("../views/dky-me/dky-site.vue"),
+    },
 ];
