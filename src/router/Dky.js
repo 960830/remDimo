@@ -1,7 +1,7 @@
 export default [
     // {
-    //     path: '/about',
-    //     name: 'About',
-    //     component: () => import('../views/About.vue')
-    // }
+    //     path: '/searchZ',
+    //     name: 'searchZ',
+    //     component: () => import('../views/Gcy/searchZ.vue')
+    // },
 ]

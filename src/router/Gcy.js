@@ -4,4 +4,9 @@ export default [
         name: 'searchZ',
         component: () => import('../views/Gcy/searchZ.vue')
     },
+    {
+        path: '/xaingq',
+        name: 'xaingq',
+        component: () => import('../views/Gcy/xaingq.vue')
+    },
 ]

@@ -11,9 +11,12 @@ Vue.use(Vant);
 
 // 配置axios信息
 import axios from "axios"
-axios.defaults.baseURL = ''
+axios.defaults.baseURL = 'http://120.53.31.103:84'
 axios.interceptors.request.use(config => {
   config.headers.Authorization = window.sessionStorage.getItem("token")
+  config.headers = {
+    deviceType: "H5"
+  }
   return config
 })
 Vue.prototype.$axios = axios;
