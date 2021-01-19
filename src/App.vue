@@ -6,20 +6,20 @@
 </template>
 
 <style lang="scss">
-<<<<<<< HEAD
-* {
-=======
+// <<<<<<< HEAD
+// * {
+// =======
 *{
->>>>>>> origin/dky
+// >>>>>>> origin/dky
   margin: 0;
   padding: 0;
   font-size: 0.3rem;
 }
-<<<<<<< HEAD
+// <<<<<<< HEAD
 html {
   font-size: 100px;
 }
-=======
+// =======
 ol,ul{
   list-style: none;
 }
@@ -31,5 +31,5 @@ i{
     height: 100%;
 }
 
->>>>>>> origin/dky
+// >>>>>>> origin/dky
 </style>
